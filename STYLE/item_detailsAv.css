@@ -229,42 +229,45 @@ i~p{
    
 }
 #AV_review>h3{
-
    padding-left: 50px;
-
-   
-   
-
-   
 }
+
+
 .container {
-    width: 40%;
-    margin: auto;
+    width: 90%;
+    margin-left: 10px;
+    height: 100px; 
+    border: 0px solid red;
+    margin-top: 40px;
+    
 }
 
 #image img {
-    width: 100%;
+    width: 90%;
+    height: 90px;
+    margin-left: 40px;
 }
 
 #image {
     position: relative;
     width: 100%;
+    
 }
 
 #image button {
-
+    cursor: pointer;
     position: absolute;
-    top: 40%;
+    height: 85px;
+    width: 30px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 
 #right {
-    margin-left: 99%;
-    
-    
+    margin-left: 100%;   
 }
-#left{
-    
-}
+
 
 
