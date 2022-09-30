@@ -1,3 +1,8 @@
+import { navbar } from "../components/navbar.js";
+let nav_div= document.getElementById('nav_container')
+nav_div.innerHTML= navbar();
+
+
 function slideShow(){
     const arr=[
         "https://www.reliancedigital.in/medias/Motorola-G71-5G-Carousel-Banner-D.jpg?context=bWFzdGVyfGltYWdlc3w5NTEzM3xpbWFnZS9qcGVnfGltYWdlcy9oMzQvaDAwLzk4OTYyOTA4MTE5MzQuanBnfDJiYjFlMjA2YTAxNjA3NzA5YjgzODJlYTJhYzA3MzJkYmIzZDI4MzA0MDdlZjNmZGVkZmFiMjUxNDA0ZmI0ZmU",

@@ -44,7 +44,7 @@ const navbar=()=>{
                             </h3>
                         </div>
                         <div>
-                            <img id="img" src="./blob.jfif" alt="">
+                            <img id="img" src="https://www.bing.com/images/blob?bcid=S0.Sgt1EQrYEGQ" alt="">
                         </div>
                     </div>
                 </li>

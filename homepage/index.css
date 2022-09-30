@@ -93,7 +93,7 @@ h1{
 
 }
 
-h3{
+/* h3{
     color: #003380;
     font-size: 14px;
     font-weight: 700;
@@ -114,7 +114,7 @@ hr{
     height:1px;
     border:none;
     background-color:#eceaea;
-}
+} */
 .product {
 
     position: relative;
@@ -123,17 +123,14 @@ hr{
    width:90%;
     height:500px;
     margin: auto;
-    padding-left: 2%;
-   
- 
-    
+    padding-left: 2%;   
   }
   .product-last {
 
     position: relative;
     overflow:visible;
     padding: 5px;
-   width:95%;
+    width:95%;
     height:380px;
     margin: auto;
    
@@ -191,6 +188,7 @@ hr{
   .product-container::-webkit-scrollbar{
     display: none;
   }
+
   .view_all{
     background-color: #003380;
     border: 1px solid #2e6da4;
