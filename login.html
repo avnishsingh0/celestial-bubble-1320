@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="nav"></div>
+    <div id="cont">
+    <p class="login">Login</p>
+    <hr>
+    <div id=main>
+    <div class="vertical">
+    <form>
+        <label for="">Email</label>
+        <br>
+        <input type="text" id="email">
+        <br><br>
+        <label for="">Password</label>
+        <br>
+        <input type="text" id="password">
+    </form>
+    <div id="forgot">
+        <p>Forgot password?</p>
+    </div>
+    
+    <button>Continue</button>
+    <div id="char">
+        <p>Don't have an account yet?</p>
+        <a href="signup.html" class="reg"><p>REGISTER</p></a>
+    </div>
+    </div>
+    <div>
+        <p class="or">OR</p>
+    </div>
+ <div class="box2">
+     <p>Login Using</p>
+    <img src="https://static.businessworld.in/article/article_extra_large_image/1553420439_O4KenA_fb.jpeg" alt="" class="image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgpALMedi9-917o1f68SR7WMpBm3pPP8LQxA&usqp=CAU" alt="" class="image">
+    </div>
+    </div>
+    </div>
+  <div id="footer"></div>
+    
+</body>
+</html>
+<script>
+  
+  let login = Boolean(localStorage.getItem('login')) || false
+  let regduser=JSON.parse(localStorage.getItem("userdatabase"));
+    
+
+
+  
+let loginfunc= ()=>
+{
+    event.preventDefault()
+    let data = {
+       
+            email:document.querySelector("#email").value,
+         password:document.querySelector("#password").value
+
+    }
+    console.log(data)
+    if(checkEmail(data.email)&& checkPassword(data.password))
+    {
+        
+        login = true
+        localStorage.setItem('login',login)
+        alert('Login successful!')
+        window.location.href = 'index.html'
+    }
+   else if(checkPassword(data.password)===false)
+    {
+        alert("Wrong credentials")
+    }
+    else if(checkEmail(data.email)===false) {
+        alert("User doesn't exist, Sign Up")
+    }
+}
+
+
+    document.querySelector("button").addEventListener("click",loginfunc);
+
+    // function login(){
+    //     let email=document.querySelector("#email").value;
+
+    //     let password=document.querySelector("#password").value;
+
+     
+    //     for(let i=0;i<regduser.length;i++){
+    //         if(regduser[i].emailId===email && regduser[i].pass===password){
+    //             login=true;
+    //             localStorage.setItem('login', login)
+    //             window.location.href="index.html";
+
+    //         }
+    //     }
+    //     if(user_found===false){
+    //     alert("wrong credientials");
+    //     }
+    // }
+
+   
+
+// let users = JSON.parse(localStorage.getItem('users')) || []
+
+let checkEmail= (email) => 
+{
+    let filtered = regduser.filter((element)=>{
+        return email === element.emailId 
+    })
+    if(filtered.length > 0){
+        return true
+    }
+    else{
+        return false
+    }
+}
+function checkPassword(password)
+{
+    let filtered = regduser.filter((element)=>{
+        return password === element.pass 
+    })
+    if(filtered.length > 0){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+</script>
+
+  
