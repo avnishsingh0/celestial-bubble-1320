@@ -1,6 +1,6 @@
-import { navbar } from "../components/navbar.js";
-let nav_div= document.getElementById('nav_container')
-nav_div.innerHTML= navbar();
+
+
+
 
 
 function slideShow(){
@@ -35,7 +35,7 @@ function secondslideShow(){
          "https://www.reliancedigital.in/medias/Vivo-Y22-NPI-Banner-D.jpg?context=bWFzdGVyfGltYWdlc3wxMDc3Mjl8aW1hZ2UvanBlZ3xpbWFnZXMvaDA1L2gxMy85ODk1NDAwNjM2NDQ2LmpwZ3w0ZTE0OTVlMjBiNDFkYjI0ZDRjZDlhNjk3MDQzMmRlMDhkMjdkOTUwN2FlNjY4NGJjYzZkNGFjMzhlNDg1ZGVk"]
     let i=0;
          let div=document.getElementById("slider1")
-         
+         console.log(arr)
     let img=document.createElement("img")
     img.src=arr[0]
 
