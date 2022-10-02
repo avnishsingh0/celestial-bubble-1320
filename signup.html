@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
     <title>Document</title>
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="./STYLE/signup.css">
 </head>
 
 <body>
-    <div id="navbar"></div>
+    <div id="nav_container"></div>
     <div id="register">
        <p class="para">Register</p>
        <hr class="line">
@@ -41,6 +41,13 @@
 </html>
 <script>
   
+
+import { navbar } from "../";
+let nav_div= document.getElementById('nav_container')
+nav_div.innerHTML= navbar();
+
+
+
   document.querySelector("button").addEventListener("click",register);
     let userdata=JSON.parse(localStorage.getItem("userdatabase"))||[];
   function register(){
@@ -64,4 +71,5 @@
       window.location.href="login.html";
 
   }
+  
 </script>

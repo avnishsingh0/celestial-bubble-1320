@@ -1,9 +1,9 @@
 const navbar=()=>{
     return `<div id="nav1">
     <div id="nav">
-        <img src="https://www.reliancedigital.in/build/client/images/loaders/rd_logo.svg" alt="">
+        <img id="avnav_img" src="https://www.reliancedigital.in/build/client/images/loaders/rd_logo.svg" alt="">
         <div id="input"><input id="input1" type="text" placeholder="Find your product"><i id="i" class="fa-sharp fa-solid fa-magnifying-glass"></i></div>
-        <div id="nav_right">Select your PIN Code | <i class="fa-solid fa-cart-shopping"></i> Cart | <i class="fa-solid fa-user"></i> Login</div>
+        <div id="nav_right">Select your PIN Code | <i class="fa-solid fa-cart-shopping"></i> Cart | <i class="fa-solid fa-user"></i> <a id="av_login1" href="login.html">login</a></div>
     </div>
 
  
@@ -18,7 +18,8 @@ const navbar=()=>{
                     
                     <div class="megamenu" id="megamenu1">
                         <div>
-                            <h3>Smartphones</h3>
+                        <a href="smartphone.html"><h3>Smartphones</h3></a>
+                            
                             <h3>Wearable Technology</h3>
                             <p>Apple Watches Price Drop</p>
                             <p>Smartwatch @ Rs. 999</p>
@@ -55,7 +56,8 @@ const navbar=()=>{
                     <a href="#" >TELEVISIONS</a>
                     <div class="megamenu" id="megamenu2">
                         <div>
-                            <h3>Televisions</h3>
+                        <a href="television.html"><h3>Televisions</h3></a>
+                            
                             <p>Smart TVs</p>
                             <p>32 Inch TVs</p>
                             <p>43 Inch TVs</p>
@@ -341,4 +343,11 @@ const navbar=()=>{
 </div>`
 }
 export{navbar};
+
+
+// document.querySelector("#nav_right").addEventListener("click", function () {
+//     console.log(window.location.href);
+//     document.location.href = "login.html";
+    
+//   });
 

@@ -1,0 +1,273 @@
+*{
+    font-family: sans-serif;
+}
+
+#Avmm{
+    padding-bottom: 300px;
+ 
+}
+#Avimg_con{
+    display: flex;
+}
+#Avimg_div{
+    width: 43%;
+    height: 600px;
+    border: 0px solid red;
+}
+#Avimg_details{
+    width: 57%;
+    height: 130px;
+    border:  0px solid red;
+}
+#Av_img1{
+    width: 50%;
+    margin-left: 100px;
+}
+#Avimg_details>p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #424d54;
+}
+#Avimg_details>h2{
+    font-size: 16px;
+    line-height: 22px;
+    color: #424d54 ;
+    font-weight: 600;
+}
+
+#AV1{
+    width: 40%;
+    height: 30px;
+    border: 0px solid red;
+    display: flex;
+    margin-top: 10px;
+}
+#Avcheckbox{
+    margin-left: 5px;
+    margin-top: -2px;
+    width: 20px;
+}
+#Avcheckbox~p{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#Avcheckbox~i{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: blue;
+}
+i~p{
+    color: blue;
+}
+#Av_op{
+    width: 56.80%;
+    border: 0px solid red;
+  
+    margin-left: 43%;
+    margin-top: -42.5%;
+    display: flex;
+
+}
+
+#Av_offer{
+    width: 50%;
+    border: 0px solid red;
+    line-height: 28px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#Av_offer>h3{
+    font-size: 14px;
+    color: #424d54;
+}
+#Av_offer>ul>li{
+    font-size: 12px;
+    margin-left: -23px;
+}
+#Av_price{
+    width: 50%;
+    border: 0px solid red;
+   
+    line-height: 30px;
+    font-size: 13px;
+    padding-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#Av_price>input{
+    height: 35px;
+    margin-top: 30px;
+    width: 70%;
+    
+    
+}
+#Av_price>input~button{
+
+    background-color: #e42529;
+    width: 140px;
+    height: 48px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#Av_price>input~button~button{
+    background-color:#fc6027 ;
+    
+}
+
+
+
+
+/*  */
+
+#AV_itembuttom{
+    display: flex;
+    border: 0px solid red;
+    height: 1360px;
+    width: 100%;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#AV_itembuttom>div:nth-child(1){
+    border: 0px solid red;
+    width: 71%;
+    height: 600px;
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 33px;
+    font-size: 13px;
+}
+#AV_itembuttom>div:nth-child(2){
+    border: 0px solid red;
+    width: 25%;
+    height: 600px;
+    padding-top: 100px;
+    margin-left: 2%;
+}
+#Avh3{
+    word-spacing: 20px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #5c6e93;
+    padding-bottom: 30px;
+}
+#Avh3~h3{
+    font-size: 13px;
+    color: #2d2d2e;
+}
+
+#Avh21{
+    background-color: #efefef;
+    font-size: 20px;
+    padding-left: 17%;
+    height: 38px;
+    padding-top: 12px;
+    width: 80%;
+    font-weight: 500;
+    
+}
+#Av_img_left{
+    
+    height: 950px;
+    margin-top: 10px;
+    width: 97%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#Av_img_left>div:nth-child(1){
+    border: 0px solid red;
+    /* width: 30px; */
+    height: 320px;
+    
+
+}
+#Av_img_left>div:nth-child(2){
+    border: 0px solid red;
+    /* width: 30px; */
+    height: 320px;
+    
+    
+
+}
+#Av_img_left>div:nth-child(3){
+    border: 0px solid red;
+    /* width: 30px; */
+    height: 320px;
+    
+
+}
+#Av_img_left>div>img{
+    width: 85%;
+    height: 200px;
+    padding-left: 20px;
+    
+}
+#Avsp~h2{
+    background-color: #f5f7f7;
+    font-size: 13px;
+    color: #5c6e93;
+}
+#Avsp~p{
+    word-spacing: 300px;
+}
+#AV_review{
+    display: flex;
+    font-family: sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+    color: #495664;
+    font-weight: lighter;
+}
+#AV_review h2{
+    font-size: 15px;
+    margin-left: 70px;
+    color: blue;
+
+   
+}
+#AV_review>h3{
+   padding-left: 50px;
+}
+
+
+.container {
+    width: 90%;
+    margin-left: 10px;
+    height: 100px; 
+    border: 0px solid red;
+    margin-top: 40px;
+    
+}
+
+#image img {
+    width: 90%;
+    height: 90px;
+    margin-left: 40px;
+}
+
+#image {
+    position: relative;
+    width: 100%;
+    
+}
+
+#image button {
+    cursor: pointer;
+    position: absolute;
+    height: 85px;
+    width: 30px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+#right {
+    margin-left: 100%;   
+}
+
+
+
