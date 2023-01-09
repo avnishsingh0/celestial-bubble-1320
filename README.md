@@ -1,4 +1,4 @@
-✨SUGAR COSMETICS-Clone✨
+✨RELIANCE DIGITAL-Clone✨
 ---
 This is a collaborative Project from Masai School in the Construct Week developed in 5 days. We are a team of 5 members:
 
