@@ -4,19 +4,21 @@ This is a collaborative Project from Masai School in the Construct Week develope
 
 
 
-1. Shubham Verma :- https://github.com/Shubhamverma94 , https://www.linkedin.com/in/shubhamverma17/
+1. Avnish Singh :- https://github.com/avnishsingh0 , https://www.linkedin.com/in/avnish-kumar-a9347b239/
 
-2. Tejasvi Bishnoi :- https://github.com/TejasBishnoi21  , https://www.linkedin.com/in/tejasvi-bishnoi-81294b14a/
+2. Surya Ahire :- https://github.com/surya2697 
 
-3. Avnish Singh :- https://github.com/avnishsingh0 , https://www.linkedin.com/in/avnish-kumar-a9347b239/
+3. Suprajna :- https://github.com/Suprajna
 
-4. Devendra Kumar :- https://github.com/Devendra0192 , https://www.linkedin.com/in/devendrakumar9161/
+
+
+
 
 💻Project Unique Name :- Reliance Digital ✈️
 ---
 About RELIANCE DIGITAL:- SUGAR Cosmetics, a cult-favourite amongst Gen Z and millennials, is one of the fastest-growing premium beauty brands in India. With its clutter-breaking persona, signature low-poly packaging and chart-topping products, SUGAR is the makeup of choice for bold, independent women who refuse to be stereotyped into roles.
 
-<img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fa7bfdf05-ad0e-4c24-ab48-7ff64e9115b8.jpg&w=1920&q=75"/>
+<img src="https://www.reliancedigital.in/medias/Samsung-Galaxy-M53-5G-CLP-Banner-22-09-2022.jpg?context=bWFzdGVyfGltYWdlc3wyNDUyNTZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDBmL2hmYS85ODk1NDAyNDcxNDU0LmpwZ3w4ZDVjNGFmNTdmMDljOWU2OTE1NWFiYzQzZTMzMjg1N2VmYjI0OWExZDk4YzdiNjY4NzdjNDQ4YjQ0ZDkyZjgz"/>
 
 <img src="https://www.reliancedigital.in/medias/OnePlus-TVs-CLP-Banner-23-12-2022.jpg?context=bWFzdGVyfGltYWdlc3wxMDM4ODV8aW1hZ2UvanBlZ3xpbWFnZXMvaGM1L2g1OC85OTM0OTQxMTU5NDU0LmpwZ3w4MzRjMDRhYjdlYThjYjRkMWViZDM0NTMyMGFlOTVhMzEzZDg5YzJiYTk0NWJkNTBkY2MxNTgyMWM0NzYyM2Fh"/>
 💫Tech & Tools Used :
